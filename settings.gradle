@@ -1,0 +1,3 @@
+rootProject.name = 'MiniScript-kt'
+
+enableFeaturePreview('GRADLE_METADATA')
