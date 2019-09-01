@@ -49,23 +49,6 @@ actual typealias WeakReference<T> = kotlin.native.ref.WeakReference<T>
 // TODO: Typealias??
 actual fun getTimeMillis() = kotlin.system.getTimeMillis()
 
-actual class FileReader actual constructor(path: String) {
-	actual fun readLine(): String? {
-		TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-	}
-
-	actual fun close() {
-	}
-}
-
-actual fun readLine() = kotlin.io.readLine()
-
-actual object File {
-	actual fun exists(path: String): Boolean {
-		TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-	}
-}
-
 actual fun String.format(vararg args: Any): String {
 	TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
 }

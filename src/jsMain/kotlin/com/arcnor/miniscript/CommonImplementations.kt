@@ -56,25 +56,6 @@ actual class WeakReference<T : Any> actual constructor(referred: T) {
 	}
 }
 
-actual class FileReader actual constructor(path: String) {
-	actual fun readLine(): String? {
-		TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-	}
-
-	actual fun close() {
-	}
-}
-
-actual fun readLine(): String? {
-	TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-}
-
-actual object File {
-	actual fun exists(path: String): Boolean {
-		TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-	}
-}
-
 actual fun String.format(vararg args: Any): String {
 	TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
 }
